@@ -194,16 +194,6 @@ const menuItems = [
         featured: true
     },
     {
-        name: '3D',
-        extensionId: 'jg3d',
-        iconURL: jg3dExtensionIcon,
-        tags: ['penguinmod'],
-        customInsetColor: '#B200FF',
-        insetIconURL: jg3dInsetExtensionIcon,
-        description: 'Use the magic of 3D to spice up your project.',
-        featured: true
-    },
-    {
         name: 'Animated Text',
         extensionId: 'text',
         iconURL: animatedTextIconURL,
@@ -1076,6 +1066,16 @@ const menuItems = [
             />
         ),
         tags: ['collections'],
+        featured: true
+    },
+     {
+        name: '3D',
+        extensionId: 'jg3d',
+        iconURL: defaultExtensionIcon,
+        tags: ['penguinmod'],
+        customInsetColor: '#B200FF',
+        insetIconURL: jg3dInsetExtensionIcon,
+        description: 'Use the magic of 3D to spice up your project.',
         featured: true
     },
     {
