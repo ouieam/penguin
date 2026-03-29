@@ -159,14 +159,6 @@ const menuItems = [
         featured: true
     },
 
-    {
-        name: 'Face Sensing',
-        extensionId: 'https://extensions.turbowarp.org/lab/face-sensing.js',
-        iconURL: 'https://studio.penguinmod.com/static/assets/4851d7c79a543911b338f4f87a7f2f5d.png',
-        tags: ['scratch'],
-        description: 'Sense faces with the camera.',
-        featured: true
-    },
         
       {
         name: '3D',
@@ -181,8 +173,8 @@ const menuItems = [
     },
     {
         name: 'Monitors Plus',
-        extensionId: 'https://sharkpools-extensions.vercel.app/extension-code/Monitors-Plus.js',
-        iconURL: 'https://sharkpools-extensions.vercel.app/extension-thumbs/Monitors-Plus.svg',
+        extensionId: 'https://sharkpools-extensions.vercel.app/extension-code/VariablePlus.js',
+        iconURL: 'https://sharkpools-extensions.vercel.app/extension-thumbs/Variables-Expanded.svg',
         collaborator: 'SharkPool',
         tags: ['penguinmod'],
         description: 'New variable blocks and new monitor types.',
@@ -549,8 +541,16 @@ const menuItems = [
         featured: true
     },
     {
+        name: 'Face Sensing',
+        extensionId: 'https://extensions.turbowarp.org/lab/face-sensing.js',
+        iconURL: 'https://studio.penguinmod.com/static/assets/4851d7c79a543911b338f4f87a7f2f5d.png',
+        tags: ['scratch'],
+        description: 'Sense faces with the camera.',
+        featured: true
+    },
+    {
         name: 'Cloud Storage',
-        extensionId: 'https://snail-ide.js.org/cloudstorage.js',
+        extensionId: 'https://snail-ide.js.org/cloudfix.js',
         collaborator: 'pooiod7',
         iconURL: cloudstorageIconURL, // this needs to be redone soon
         tags: ['penguinmod'],
@@ -561,14 +561,14 @@ const menuItems = [
         name: 'Text to Speech 2.0',
         extensionId: 'https://sharkpools-extensions.vercel.app/extension-code/Text-to-Speech.js',
         twDeveloper: 'SharkPool',
-        iconURL: 'https://sharkpools-extensions.vercel.app/extension-thumbs/Text-to-Speech.svg',
+        iconURL: 'https://sharkpools-extensions.vercel.app/extension-thumbs/Text-Speech.svg',
         tags: ['turbowarp'],
         description: 'Make your projects talk with the TikTok API.',
         featured: true
     },
     {
         name: 'Asset Manager',
-        extensionId: 'https://extensions.turbowarp.org/Lily/Assets.js',
+        extensionId: 'https://extensions.turbowarp.org/fix/Assets.js',
         twDeveloper: 'LillyMakesThings',
         iconURL: 'https://extensions.turbowarp.org/images/Lily/Assets.svg',
         tags: ['turbowarp'],
