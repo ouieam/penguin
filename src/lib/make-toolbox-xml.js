@@ -32,6 +32,13 @@ const motion = function (isInitialSetup, isStage, targetId) {
                 </shadow>
             </value>
         </block>
+        <block type="motion_movebacksteps">
+            <value name="STEPS">
+                <shadow type="math_number">
+                    <field name="NUM">10</field>
+                </shadow>
+            </value>
+        </block>
         <block type="motion_moveupdownsteps">
             <value name="STEPS">
                 <shadow type="math_number">
@@ -458,8 +465,6 @@ const looks = function (isInitialSetup, isStage, targetId, costumeName, backdrop
         <block type="looks_tintColor"/>
         ${blockSeparator}
         ${isStage ? `
-            <block type="looks_showallsprites"/>
-            <block type="looks_hideallsprites"/>
             <block type="looks_getAllSpritesVisible"/>
             ${blockSeparator}
         ` : `
@@ -482,9 +487,6 @@ const looks = function (isInitialSetup, isStage, targetId, costumeName, backdrop
                     <shadow type="looks_getOtherSpriteVisible_menu"/>
                 </value>
             </block>
-            ${blockSeparator}
-            <block type="looks_showallsprites"/>
-            <block type="looks_hideallsprites"/>
             <block type="looks_getAllSpritesVisible"/>
             ${blockSeparator}
             <block type="looks_gotofrontback"/>
