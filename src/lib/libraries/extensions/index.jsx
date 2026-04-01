@@ -515,29 +515,11 @@ const menuItems = [
         featured: true
     },
     {
-        name: 'Scope',
-        extensionId: 'jwScope',
-        iconURL: jwScopeExtensionThumb,
-        tags: ['penguinmod'],
-        description: 'Temporary variables based on block stack. (extra blocks if used with Array extension)',
-        extDeveloper: 'jwklong',
-        featured: true
-    },
-    {
         name: 'Pointers',
         extensionId: 'jwPointer',
         iconURL: jwPointerExtensionThumb,
         tags: ['penguinmod', 'datamgmt'],
         description: 'Define references to values. (extra blocks if used with Array extension)',
-        extDeveloper: 'jwklong',
-        featured: true
-    },
-    {
-        name: 'Integers',
-        extensionId: 'jwInt',
-        iconURL: jwIntExtensionThumb,
-        tags: ['penguinmod', 'math'],
-        description: 'Large integers with zero precision loss.',
         extDeveloper: 'jwklong',
         featured: true
     },
